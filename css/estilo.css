@@ -1,0 +1,2131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+p{
+  font-family:  'SF-Pro-Display',Roboto,Sans-Serif;
+}
+
+
+
+/*HEADER*/
+header .brand img{
+  height: 60px;
+}
+
+header{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 80px;
+  transition: 0.6s;
+}
+
+header .brand img{
+  width: 400px;
+  height: 103px;
+ }
+ 
+ header .menu{
+   position: relative;
+   display: flex;
+   margin-left: 12rem;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ header .menu ul{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ header .menu ul li{
+   list-style: none;
+   display: block;
+ }
+ 
+ header .menu li ul{
+   display: none;
+   position: absolute;
+   min-width: 140px;
+   background-color: rgb(173, 171, 171);
+   list-style: none;
+ }
+ 
+/*SCROLL HEADER*/
+header.down{
+  background: #000000;
+  height: 50px;
+}
+
+.down .brand img{
+  width: 54px; 
+  height: 14px;
+}
+
+.down .menu{
+  padding-top: 1rem;
+  margin-left: 30rem;
+}
+
+
+
+
+header .menu a{
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 14px;
+  transition: 0.3s;
+  transition-property: color, background;
+}
+
+
+header .menu li:hover > ul{
+  display: block;
+}
+
+header .menu a:hover{
+  color:  rgb(173, 171, 171);
+}
+
+header .btn{
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.bi.bi-chevron-up{
+  width: 1px;
+  height: 6px;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  color: #f7f7f7;
+  background: rgb(58, 58, 58);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+a.nav-link{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+
+
+}
+.trn.nav-link{
+  color: #fff;
+}
+.trn{
+  background: transparent !important; 
+  z-index: 99;
+}
+.bd-example {
+  margin-top: -142px;
+}
+
+.text{
+  font-family:  'SF-Pro-Display',Roboto,Sans-Serif;
+  color: #777777;
+}
+.text-nos{
+  margin-top: 110px;
+  font-family:  'SF-Pro-Display',Roboto,Sans-Serif;
+  font-size: 17px;
+  color: #777777;
+}
+.contenedor-textnos{
+  margin-top: 80px;
+}
+
+
+/*--Banners Home--*/
+
+.foto-principal{
+  background: url("../img/bg-libertadores.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.h11-txt{
+  font-size: 6rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: relative;
+  padding: 0px;
+  line-height: 8rem;
+  margin-top: 7rem;
+  }
+
+.h1-txt{
+  font-size: 7rem;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: relative;
+  line-height: 9rem;
+margin-top: 7rem;
+
+}
+
+.h12-txt{
+  font-size: 6rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: relative;
+  padding: 0px;
+  line-height: 8rem;
+  margin-top: 0;
+  }
+
+.palabras{
+  margin-top: 9rem;
+}
+
+.palabras-2{
+  display: flex;
+  flex-direction: column;
+}
+
+  .boton-personalizado {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:25px;
+    padding-bottom:18px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    
+    .boton-personalizado:hover {
+      background-color:#636363;
+      }
+      
+.foto-principal2{
+  background: url("../img/bg-huggies.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal3{
+  background: url("../img/bg-rapipago.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal3::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal4{
+  background: url("../img/bg-art.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal4::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal5{
+  background: url("../img/bg-link.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal5::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal6{
+  background: url("../img/bg-declink.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal6::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal7{
+  background: url("../img/bg-stands.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal7::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal8{
+  background: url("../img/bg-patagonia.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal8::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal9{
+  background: url("../img/bg-corona.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal9::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal10{
+  background: url("../img/bg-movistar.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal10::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal11{
+  background: url("../img/bg-autos.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal11::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foto-principal12{
+  background: url("../img/bg-llave.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal12::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.foto-principal13{
+  background: url("../img/bg-cancha.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principal13::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*--Banners Home--*/
+
+/*--Banners Nosotros--*/
+.foto-principalNos{
+  background: url("../img/bg-nosotros.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 80vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+
+.foto-principalNos::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*--Banners Nosotros--*/
+
+.carousel2 img{
+  transition: all 0.8s ease;
+}
+
+.carousel2 img:hover{
+  filter: grayscale(1);
+  transition: all 0.6s ease;
+}
+
+
+/*--Banners Sup banking--*/
+.foto-principalSup{
+  background: url("../img/bg-supbank.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalSup::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners Sup banking--*/
+
+/*--Banners Proceso Productivo--*/
+.foto-principalpp{
+  background: url("../img/bg-rapipago.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalpp::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners Proceso Productivo--*/
+
+/*--Banners Letras corporeneas--*/
+.foto-principallc{
+  background: url("../img/bg-movistar.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principallc::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners Letras corporeneas--*/
+
+/*--Banners Diseño grafico--*/
+.foto-principaldg{
+  background: url("../img/bg-art.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principaldg::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners Diseño grafico--*/
+
+/*--Banners  grafica--*/
+.foto-principalg{
+  background: url("../img/bg-link.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalg::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners grafica--*/
+
+/*--Banners  imagen institucional--*/
+.foto-principaii{
+  background: url("../img/bg-huggies.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principaii::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners  imagen institucional--*/
+
+/*--Banners  decoracion comercial--*/
+.foto-principaldc{
+  background: url("../img/bg-fest.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principaldc::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners  decoracion comercial--*/
+
+/*--Banners  Stands--*/
+.foto-principalst{
+  background: url("../img/bg-stands.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalst::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners  Stands--*/
+
+/*--Banners  totems y exhibidores--*/
+.foto-principalte{
+  background: url("../img/bg-patagonia.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalte::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners  totems y exhibidores--*/
+
+/*--Banners  corte y grabador laser--*/
+.foto-principalgl{
+  background: url("../img/bg-corona.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalgl::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners  corte y grabador laser--*/
+
+/*--Banners tecnologia y equipamiento--*/
+.foto-principaleq{
+  background: url("../img/bg-equipamiento.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principaleq::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners tecnologia y equipamiento--*/
+
+/*--Banners Obra llave en mano--*/
+.foto-principalom{
+  background: url("../img/bg-llave.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalom::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*--Banners Obra llave en mano--*/
+
+/*--Banners estaciones de recarga de celulares--*/
+
+.foto-principalest{
+  background: url("../img/bg-libertadores.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalest::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.txt-banner{
+  font-size: 3.5rem;
+  font-family:  'SF-Pro-Display',Roboto,Sans-Serif;
+  color: #fff;
+  margin-top: 12rem;
+  position: relative;
+  font-weight: 800;
+}
+.txt-banner2{
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 12rem;
+  position: relative;
+  font-weight: 800;
+}
+.img-medio{
+ height: 130vh;
+ display: block;
+margin-left: auto;
+margin-right: auto
+}
+/*--Banners estaciones de recarga de celulares--*/
+
+/*--Banners IMPORTACIÓN Y VENTA DE PLACAS DE PVC ESPUMADO--*/
+.foto-principalime{
+  background: url("../img/bg-long.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalime::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /*--Banners IMPORTACIÓN Y VENTA DE PLACAS DE PVC ESPUMADO--*/
+
+  /*--Banners IMPORTACIÓN Y VENTA DE PLACAS DE ACRILICO--*/
+.foto-principalacr{
+  background: url("../img/bg-acrilico.jpg");
+  margin-top: 8.5rem;
+  background-color: transparent;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 100px;
+  text-align: center;
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.foto-principalacr::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+    /*--Banners IMPORTACIÓN Y VENTA DE PLACAS DE ACRILICO--*/
+
+.titulo-contacto{
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+:root {
+  --marquee-width: 100vw;
+  --marquee-height: 23vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 5;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  background-color: #111;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  position: relative;
+  margin-top: 90px;
+}
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.marquee-content  img {
+  width: 100%;
+  /* height: 100%; */
+  border: none;
+}
+
+
+/*--VIDEOS--*/
+
+
+#ctn-cover-video{
+  background-color: #0000009f;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#ctn-cover-video2{
+  background-color: #0000009f;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#ctn-cover-video3{
+  background-color: #0000009f;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#ctn-cover-video4{
+  background-color: #0000009f;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-video{
+  display: flex;
+  justify-content: center;
+}
+
+.videos-lg{
+  margin: auto;
+  max-width: 80%;
+}
+
+#btn-cerrar{
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  right: 30px;
+  top: 4rem;
+  cursor: pointer;
+}
+
+#btn-cerrar2{
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  right: 30px;
+  top: 4rem;
+  cursor: pointer;
+}
+
+#btn-cerrar3{
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  right: 30px;
+  top: 4rem;
+  cursor: pointer;
+}
+
+#btn-cerrar4{
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  right: 30px;
+  top: 4rem;
+  cursor: pointer;
+}
+/*--CONTACTO--*/
+
+
+#mail{
+  text-decoration: none;
+  color: #777;
+}
+
+#mail:hover{
+  cursor: pointer;
+  color: rgb(73, 3, 73);
+}
+
+.contact-p{
+  color: #777;
+}
+.contact-imgg{
+  padding-top: 7rem;
+}
+
+.contact-img{
+  padding: 3rem;
+}
+
+h4{
+  padding-bottom: 1rem;
+}
+.mapa{
+  margin-top: 13rem;
+}
+
+.pie-mapa{
+  background-color: #303133;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#pie-text{
+  padding-top: 10px;
+  color: white;
+  font-family:  'SF-Pro-Display',Roboto,Sans-Serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer{
+  background-color: rgb(0, 0, 0);
+  height: 10rem;
+  position: relative;
+  
+}
+
+.footer-img{
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5rem;
+}
+
+
+/*--FOOTER-GALERIAS--*/
+
+.footer-g{
+  background-color: black;
+  height: 10rem;
+  position: relative;
+}
+
+
+.footer-c{
+  background-color: black;
+  height: 10rem;
+  position: relative;
+}
+
+
+/*--GALERIAS--*/
+
+.gallery-card{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/*--Galeria 3 fotos--*/
+
+.gallery-container-e{
+  width: 80%;
+  margin:100px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(1,400px);
+}
+
+.gallery-container-e .gallery-card{
+  overflow: hidden;
+}
+
+.gallery-container-e .gallery-card a{
+  width: 100%;
+  height:100%;
+}
+.gallery-container-e .gallery-card a > img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.gallery-container-e .gallery-card a > img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.20s ease;
+  filter: grayscale(1);
+  transition: all 0.20s ease ;
+ 
+}
+
+
+/*--Galerias 6 fotos--*/
+
+.gallery-container{
+  width: 80%;
+  margin:100px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(2,400px);
+}
+
+.gallery-container .gallery-card{overflow: hidden};
+
+.gallery-container .gallery-card a{
+  width: 100%;
+  height:100%;
+}
+.gallery-container .gallery-card a > img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.gallery-container .gallery-card a > img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.20s ease;
+  filter: grayscale(1);
+  transition: all 0.20s ease ;
+ 
+}
+
+
+/*--Galerias 9 Fotos--*/
+
+.gallery-container-n{
+  width: 80%;
+  margin:100px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(3,400px);
+}
+
+.gallery-container-n .gallery-card{
+  overflow: hidden;
+}
+
+.gallery-container-n .gallery-card a{
+  width: 100%;
+  height:100%;
+}
+.gallery-container-n .gallery-card a > img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.gallery-container-n .gallery-card a > img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.20s ease;
+  filter: grayscale(1);
+  transition: all 0.20s ease ;
+ 
+}
+
+
+/*--Galerias 10 Fotos--*/
+
+.gallery-container-d{
+  width: 80%;
+  margin:100px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(4,400px);
+}
+
+.gallery-container-d .gallery-card{
+  overflow: hidden;
+}
+
+.gallery-container-d .gallery-card a{
+  width: 100%;
+  height:100%;
+}
+.gallery-container-d .gallery-card a > img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.gallery-container-d .gallery-card a > img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.20s ease;
+  filter: grayscale(1);
+  transition: all 0.20s ease ;
+ 
+}
+
+ /* Slider nosotros */
+ .slider{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+ 
+ .wrapper{
+  max-width: 1300px;
+  position: relative;
+  display: flex;
+  padding: 0 10px;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  }
+
+
+.wrapper i{
+  top: 50%;
+  height: 20px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel2{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel2.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel2.dragging img{
+  pointer-events: none;
+}
+.carousel2 img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel2 img:first-child{
+  margin-left: 0px;
+}
+
+
+.cont-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+  align-content: center;
+
+}
+
+
+/*--Responsive--*/
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+  }
+  .marquee:before, .marquee:after { width: 5rem; }
+
+}
+
+@media screen and (max-width:800px){
+  .botones{
+    font-size: 30px;
+  }
+  .atras{
+    left: 5px;
+  }
+  .adelante{
+    right: 5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .carousel2 img{
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 550px) {
+  .carousel2 img{
+    width: 100%;
+  }
+}
+     
+/*--Footer--*/
+
+/*INDEX*/
+@media (min-width: 320px) and (max-width: 525px){
+  span.h11-txt{
+    font-size: 28px;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .palabras{
+    margin-top: 18rem;
+  }
+
+  .palabras-2{
+    margin-top: 15rem;
+  }
+
+  .h12-txt{
+    font-size: 28px;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .boton-personalizado{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+    padding-right: 20px;
+    border-width: 1px;
+
+  }
+
+}
+@media (min-width: 526px) and (max-width: 600px){
+  span.h11-txt{
+    font-size: 42px;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .h12-txt{
+    font-size: 42px;
+    line-height: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .palabras{
+    margin-top: 18rem;
+  }
+
+  .palabras-2{
+    margin-top: 16rem;
+  }
+
+
+  .boton-personalizado{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    font-size: 15px;
+    padding-right: 20px;
+    border-width: 2px;
+
+  }
+
+}
+
+
+
+@media (min-width:601px) and (max-width: 768px){
+  span.h11-txt{
+    font-size: 42px;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .h12-txt{
+    font-size: 42px;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .palabras{
+    margin-top: 12rem;
+  }
+
+  .palabras-2{
+    margin-top: 10rem;
+  }
+
+
+  .boton-personalizado{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    font-size: 15px;
+    padding-right: 20px;
+    border-width: 2px;
+
+  }
+
+}
+@media (min-width: 769px) and (max-width: 1023px){
+  span.h11-txt{
+    font-size: 52px;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .h12-txt{
+    font-size: 52px;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .palabras{
+    margin-top: 12rem;
+  }
+
+  .palabras-2{
+    margin-top: 11rem;
+  }
+
+
+  .boton-personalizado{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-right: 20px;
+    border-width: 1px;
+
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 425px){
+  p.text-center.d-flex.justify-content-center.text.animate.animated.fadeInRight.cont-text{
+    font-size: 15px;
+  }
+  }
+
+  @media (min-width: 320px) and (max-width: 425px){
+h3.txt-banner{
+font-size: 2rem;
+font-weight: 800;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+  }
+  @media (min-width: 426px) and (max-width: 767px){
+    h3.txt-banner{
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  }
+/*-------------------------------------------*/
+@media (min-width: 767px) and (max-width: 1024px){
+    h3.txt-banner2{
+      font-size: 3rem;
+      font-weight: 800;
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 425px){
+    h3.txt-banner2{
+      font-size: 2rem;
+      font-weight: 800;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+        }
+        @media (min-width: 426px) and (max-width: 767px){
+          h3.txt-banner2{
+            font-size: 2rem;
+            font-weight: 800;
+          }
+        }
+        @media (min-width: 767px) and (max-width: 1024px){
+          h3.txt-banner2{
+            font-size: 3rem;
+            font-weight: 800;
+          }
+        }
+        @media (min-width: 320px) and (max-width: 425px){
+          img.mt-5{
+            height: 72px;
+          }
+        }
+        @media (min-width: 425px) and (max-width: 768px){
+          img.mt-5{
+            height: 92px;
+          }
+        }
+
+
+@media (min-width: 320px) and (max-width: 425px){
+ #pie-text{
+   font-size: 5px;
+ }
+ 
+}
+@media (min-width: 320px) and (max-width: 425px){
+footer img{
+ height: 50px;
+}
+    }
+
+/*--VIDEOS MODALES--*/
+
+@media (min-width:320px) and (max-width:425px){
+   
+  #mivideo{
+    width: 300px;
+    height: 180px;
+  }
+  
+  #btn-cerrar{
+    top: 10rem;
+  }
+  
+  #btn-cerrar2{
+    top: 10rem;
+  }
+  
+  #btn-cerrar3{
+    top: 10rem;
+  }
+  
+  #btn-cerrar4{
+    top: 10rem;
+  }
+}
+
+@media (min-width:426px) and (max-width:545px){
+   
+  #mivideo{
+    width: 400px;
+    height: 220px;
+  }
+  
+  #btn-cerrar{
+    top: 10rem;
+  }
+  
+  #btn-cerrar2{
+    top: 10rem;
+  }
+  
+  #btn-cerrar3{
+    top: 10rem;
+  }
+  
+  #btn-cerrar4{
+    top: 10rem;
+  }
+}
+
+@media (min-width:546px) and (max-width:700px){
+   
+  #mivideo{
+    width: 500px;
+    height: 286px;
+  }
+  
+  #btn-cerrar{
+    top: 10rem;
+  }
+  
+  #btn-cerrar2{
+    top: 10rem;
+  }
+  
+  #btn-cerrar3{
+    top: 10rem;
+  }
+  
+  #btn-cerrar4{
+    top: 10rem;
+  }
+}
+
+@media (min-width:701px) and (max-width:1000px){
+   
+  #mivideo{
+    width: 700px;
+    height: 400px;
+  }
+  
+  #btn-cerrar{
+    top: 8rem;
+  }
+  
+  #btn-cerrar2{
+    top: 8rem;
+  }
+  
+  #btn-cerrar3{
+    top: 8rem;
+  }
+  
+  #btn-cerrar4{
+    top: 8rem;
+  }
+}
+
+
+@media (min-width:1001px) and (max-width:1300px){
+   
+  #mivideo{
+    width: 980px;
+    height: 550px;
+  }
+  
+  #btn-cerrar{
+    top: 5rem;
+  }
+  
+  #btn-cerrar2{
+    top: 5rem;
+  }
+  
+  #btn-cerrar3{
+    top: 5rem;
+  }
+  
+  #btn-cerrar4{
+    top: 5rem;
+  }
+}
+
+
+
+/*--HEADER RESPONSIVE--*/
+
+  @media (max-width:991px){
+    header, header.down{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      height: 110px;
+    }
+    
+.down .brand img{
+  width: 220px;
+  height: 60px;
+}
+
+    header .btn{
+      display: block;
+    }
+  
+    header .menu{
+      position: fixed;
+      background: rgb(173, 171, 171);
+      min-width: 330px;
+      height: 100vh;
+      top: 0;
+      right: -200%;
+      padding: 80px 50px;
+      transition: 0.5s;
+      transition-property: right;
+    }
+  
+    header .menu ul{
+      flex-direction: column;
+    }
+  
+    header .menu.active{
+      right: 0;
+    }
+  
+    header .menu .close-btn{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 25px;
+    }
+  
+    header .menu a{
+      display: block;
+      font-size: 20px;
+      margin: 20px;
+      padding: 0 15px;
+    }
+
+    header .brand img{
+      width: 220px;
+      height: 60px;
+    }
+
+
+    
+
+  }
+
+ @media (min-width:320px) and (max-width:425px){
+   header .menu .hr1{
+      font-size: 15px;
+      margin: 18px;
+      padding: 0 5px;
+    }
+
+    header .menu .hr2{
+      font-size: 11px;
+      margin: 5px;
+      padding: 0 5px;
+    }
+
+    header .menu .hr3{
+      font-size: 12px;
+      margin: 2px;
+      padding: 0 5px;
+    }
+
+
+    
+
+  } 
+
+
+ @media (min-width:426px) and (max-width:600px){
+  header .menu .hr1{
+    font-size: 15px;
+    margin: 18px;
+    padding: 0 5px;
+  }
+
+  header .menu .hr2{
+    font-size: 11px;
+    margin: 5px;
+    padding: 0 5px;
+  }
+
+  header .menu .hr3{
+    font-size: 12px;
+    margin: 2px;
+    padding: 0 5px;
+  }
+}  
+
+
+
+@media (min-width:601px) and (max-width:895px){
+  header .menu .hr1{
+    font-size: 15px;
+    margin: 18px;
+    padding: 0 5px;
+  }
+
+  header .menu .hr2{
+    font-size: 10px;
+    margin: 5px;
+    padding: 0 5px;
+  }
+
+  header .menu .hr3{
+    font-size: 12px;
+    margin: 2px;
+    padding: 0 5px;
+  }
+
+  .down .menu .hr1{
+    font-size: 13px;
+    margin: 18px;
+    padding: 0 5px;
+  }
+} 
+
+
+@media (min-width:992px) and (max-width:1077px) {
+  header{
+    padding: 2px 6px;
+  }
+
+  header .menu ul{
+    padding: 0;
+  }
+   
+   header .menu{
+     position: relative;
+     display: flex;
+     margin-left: 0;
+     align-items: center;
+     justify-content: center;
+   }
+  
+
+   header .menu a{
+    margin: 10px;
+   }
+  /*SCROLL HEADER*/
+  
+  .down .menu{
+    padding-top: 1rem;
+    margin-left: 15rem;
+  }
+  
+}
+
+@media (min-width:992px) and (max-width:1440px) {
+  header{
+    padding: 5px 10px;
+  }
+   
+   header .menu{
+     position: relative;
+     display: flex;
+     margin-left: 0;
+     align-items: center;
+     justify-content: center;
+   }
+  
+  /*SCROLL HEADER*/
+  
+  .down .menu{
+    padding-top: 1rem;
+    margin-left: 15rem;
+  }
+  
+}
+
+/*--GALERIAS RESPONSIVE--*/
+
+@media (min-width: 320px) and (max-width: 540px){
+       
+  /*--Galerias servicios--*/
+
+
+ /*--Galeria 3 fotos--*/
+
+.gallery-container-e{
+ display: flex;
+ flex-direction: column;
+}
+
+.galeria-r{
+ height: 80vh;
+}
+ /*--Galerias 6 fotos--*/
+
+.gallery-container{
+ display: flex;
+ flex-direction: column;
+}
+
+/*--Galerias 9 Fotos--*/
+
+.gallery-container-n{
+ display: flex;
+ flex-direction: column;
+}
+
+/*--Galerias 10 Fotos--*/
+
+.gallery-container-d{
+ display: flex;
+ flex-direction: column;
+}
+
+/*ESTACIONES DE RECARGA DE CEL IMG*/
+
+.img-medio{
+ width: 290px;
+ height: 220px;
+}
+
+}
+
+
+ @media (min-width:541px) and (max-width:1068px) {
+
+         /*--Galerias servicios--*/
+      
+       /*--Galeria 3 fotos--*/
+
+.gallery-container-e{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2,400px);
+}
+
+/*--Galerias 6 fotos--*/
+
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3,400px);
+}
+
+
+/*--Galerias 9 Fotos--*/
+
+.gallery-container-n{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5,400px);
+}
+
+/*--Galerias 10 Fotos--*/
+
+.gallery-container-d{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5,400px);
+}
+    
+  }
+           
+  /*ESTACIONES DE RECARGA DE CEL IMG*/
+
+  @media (min-width:541px) and (max-width:700px){
+    .img-medio{
+      width: 520px;
+      height: 400px;
+     }
+  }
+
+  @media (min-width:701px) and (max-width:960px){
+    .img-medio{
+      width: 670px;
+      height: 500px;
+     }
+  }
+
+  @media (min-width:961px) and (max-width:1300px){
+    .img-medio{
+      width: 840px;
+      height: 630px;
+     }
+    }
+
+     @media (min-width:1301px) and (max-width:2000px){
+      .img-medio{
+        width: 1130px;
+        height: 850px;
+       }
+  }
